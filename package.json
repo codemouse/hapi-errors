@@ -1,0 +1,30 @@
+{
+  "name": "hapi-errors",
+  "longName": "Common error formatting for Hapi.js",
+  "version": "1.0.0",
+
+  "dependencies": {
+    "elv": "1.0.0",
+    "errors": "git@github.com:cybricio/errors-node.git"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "hapi": "~13.4.0",
+    "istanbul": "~0.4.2",
+    "mocha": "~2.4.5"
+  },
+  "keywords": [
+    "errors",
+    "hapi"
+  ],
+  "main": "./lib/handle-error.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybric/hapi-errors"
+  },
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "test": "NODE_ENV=test istanbul cover _mocha tests/unit/**/*.js"
+  }
+}

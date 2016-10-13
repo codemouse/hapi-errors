@@ -1,11 +1,11 @@
 {
   "name": "hapi-errors",
   "longName": "Common error formatting for Hapi.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "dependencies": {
     "elv": "1.0.1",
-    "errors": "git@github.com:cybricio/hapi-errors.git"
+    "errors": "git@github.com:codemouse/hapi-errors.git"
   },
   "devDependencies": {
     "chai": "~3.5.0",
@@ -21,7 +21,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/cybric/hapi-errors"
+    "url": "https://github.com/codemouse/hapi-errors"
   },
   "scripts": {
     "lint": "eslint ./**/*.js",

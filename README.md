@@ -1,13 +1,13 @@
 # Error Formatter for Hapi.js
 
-Transforms [Common Errors](https://github.com/cybric/errors-node) into a Hapi.js Reply object with the proper error code and payload.
+Transforms [Common Errors](https://github.com/codemouse/errors-node) into a Hapi.js Reply object with the proper error code and payload.
 
 ## Usage
 
 1. Reference this module in your `package.json` file's `dependencies` key:
 
   ```json
-  "hapi-errors": "git@github.com:cybricio/hapi-errors.git"
+  "hapi-errors": "git@github.com:codemouse/hapi-errors.git"
   ```
 
 2. Use in a route handler:

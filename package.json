@@ -1,10 +1,9 @@
 {
   "name": "hapi-errors",
   "longName": "Common error formatting for Hapi.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
-    "elv": "1.0.1",
-    "errors": "git@github.com:codemouse/hapi-errors.git"
+    "elv": "1.0.1"
   },
   "devDependencies": {
     "chai": "~3.5.0",

@@ -1,9 +1,10 @@
 {
   "name": "hapi-errors",
   "longName": "Common error formatting for Hapi.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "dependencies": {
-    "elv": "1.0.1"
+    "elv": "1.0.1",
+    "errors-node": "1.0.1"
   },
   "devDependencies": {
     "chai": "~3.5.0",

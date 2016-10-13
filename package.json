@@ -4,14 +4,14 @@
   "version": "1.0.0",
 
   "dependencies": {
-    "elv": "1.0.0",
-    "errors": "git@github.com:cybricio/errors-node.git"
+    "elv": "1.0.1",
+    "errors": "git@github.com:cybricio/hapi-errors.git"
   },
   "devDependencies": {
     "chai": "~3.5.0",
-    "hapi": "~13.4.0",
-    "istanbul": "~0.4.2",
-    "mocha": "~2.4.5"
+    "hapi": "~15.1.1",
+    "istanbul": "~0.4.5",
+    "mocha": "~3.1.2"
   },
   "keywords": [
     "errors",
